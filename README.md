@@ -5,7 +5,7 @@ Create a custom portfolio with metals (e.g. gold or silver) and fetch the curren
 
 ## Setup
 
-1. Download the extension `MetalPortfolio.lue`
+1. Download the extension [MetalPortfolio.lua](MetalPortfolio.lua)
 2. Once downloaded, move `MetalPortfolio.lua` to your MoneyMoney Extensions folder.
 3. Create a free [goldapi.io](https://www.goldapi.io/) account and copy the API-key from [https://www.goldapi.io/dashboard](https://www.goldapi.io/dashboard)
 4. Add a new account with the type `MetalPortfolio`
