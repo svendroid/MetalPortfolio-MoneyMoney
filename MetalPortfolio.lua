@@ -94,7 +94,7 @@ function requestCurrentPrice(symbol)
   headers = {}
   headers["x-access-token"] = token
 
-  response = connection:request("GET", 
+  response = connection:request("GET",
                                 currentPriceRequestUrl(symbol),
                                 nil,
                                 nil,
@@ -108,3 +108,5 @@ end
 function currentPriceRequestUrl(symbol)
   return "https://www.goldapi.io/api/" .. symbol .. "/" .. currency
 end
+
+-- SIGNATURE: MC0CFDvYWUZKqDy+/pnYH+s3kzsRwWJhAhUAkDGBmuLmh5CF16j/pekW9LM5y7Q=
