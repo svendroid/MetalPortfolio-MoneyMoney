@@ -9,7 +9,7 @@ Create a custom portfolio with metals (e.g. gold or silver) and fetch the curren
 2. Once downloaded, move `MetalPortfolio.lua` to your MoneyMoney Extensions folder.
 3. Create a free [goldapi.io](https://www.goldapi.io/) account and copy the API-key from [https://www.goldapi.io/dashboard](https://www.goldapi.io/dashboard)
 4. Add a new account with the type `MetalPortfolio`
-5. Use the Metal symbols from the goldapi page comma seperated with the number of units in brackets as user name. Example: `XAU(1),XAG(2)`
+5. Use the Metal symbols from the goldapi page comma seperated with the number of units in brackets as user name. Example: `XAU(1),XAG(2)` XAU(1) is 1 gram of 24 karat gold. XAG(2) is 2 grams of 24 karat silver.
 6. Use the API key as password. Example: `goldap-xyasdfasdfasdfasdf-io`
 
 ![MoneyMoney screenshot with MetalPortfolio Setup](screens/setup.png)

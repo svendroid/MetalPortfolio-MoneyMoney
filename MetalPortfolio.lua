@@ -30,7 +30,7 @@
 -- SOFTWARE.
 
 WebBanking{
-  version = 1.00,
+  version = 2.00,
   country = "de",
   description = "Include your metal portfolio in MoneyMoney by providing the metal symbols and amount as username [Example: XAU(2),XAG(1.4)] and a free goldapi API-Key as password.",
   services= { "MetalPortfolio" }
@@ -101,7 +101,7 @@ function requestCurrentPrice(symbol)
                                 headers
                               )
   json = JSON(response)
-  return json:dictionary()["price"]
+  return json:dictionary()["price_gram_24k"]
 end
 
 -- Helper Functions
