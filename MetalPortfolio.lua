@@ -109,4 +109,4 @@ function currentPriceRequestUrl(symbol)
   return "https://www.goldapi.io/api/" .. symbol .. "/" .. currency
 end
 
--- SIGNATURE: MC0CFDvYWUZKqDy+/pnYH+s3kzsRwWJhAhUAkDGBmuLmh5CF16j/pekW9LM5y7Q=
+-- SIGNATURE: MCwCFA/WbvFa3wGDpqsuMOBC6LggyouxAhQYJAcFF3Wg7/e+HuQRvvkTBE3OdQ==
